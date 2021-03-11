@@ -8,8 +8,8 @@ import (
 	"testing"
 )
 
-// EqualFixture validates that the contents of the given file are the same as the given bytes. If the
-// OVERWRITE environment variable is set to TRUE, the given bytes are written to the file first.
+// EqualFixture validates that the contents of the given file are the same as the given bytes. If
+// the OVERWRITE environment variable is set to TRUE, the given bytes are written to the file first.
 func EqualFixture(tb testing.TB, name, filename string, got []byte) {
 	tb.Helper()
 

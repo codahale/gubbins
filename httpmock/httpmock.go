@@ -1,3 +1,4 @@
+// Package httpmock contains code for creating simple mock HTTP servers.
 package httpmock
 
 import (
